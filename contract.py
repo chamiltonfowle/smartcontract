@@ -10,7 +10,7 @@ from solcx import install_solc
 install_solc(version='latest')
 from solcx import compile_source
 
-with open("Greeter.sol") as c:
+with open("contract.py") as c:
  contractText=c.read()
 with open("../.pk") as pkfile:
  privateKey=pkfile.read()
